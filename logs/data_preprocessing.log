@@ -1,0 +1,60 @@
+2026-02-22 18:31:46,664 - data_preprocessing - DEBUG - Data loaded properly
+2026-02-22 18:31:46,664 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2026-02-22 18:31:46,666 - data_preprocessing - DEBUG - Target column encoded
+2026-02-22 18:31:46,673 - data_preprocessing - DEBUG - Duplicates removed
+2026-02-22 18:31:46,674 - data_preprocessing - ERROR - Error during text normalization: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - '/home/aditya/nltk_data'
+    - '/home/aditya/mlops/DVC-full-pipeline/myenv/nltk_data'
+    - '/home/aditya/mlops/DVC-full-pipeline/myenv/share/nltk_data'
+    - '/home/aditya/mlops/DVC-full-pipeline/myenv/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+
+2026-02-22 18:31:46,674 - data_preprocessing - ERROR - Failed to complete the data transformation process: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - '/home/aditya/nltk_data'
+    - '/home/aditya/mlops/DVC-full-pipeline/myenv/nltk_data'
+    - '/home/aditya/mlops/DVC-full-pipeline/myenv/share/nltk_data'
+    - '/home/aditya/mlops/DVC-full-pipeline/myenv/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+
+2026-02-22 18:35:44,057 - data_preprocessing - DEBUG - Data loaded properly
+2026-02-22 18:35:44,057 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2026-02-22 18:35:44,058 - data_preprocessing - DEBUG - Target column encoded
+2026-02-22 18:35:44,061 - data_preprocessing - DEBUG - Duplicates removed
+2026-02-22 18:35:50,444 - data_preprocessing - DEBUG - Text column transformed
+2026-02-22 18:35:50,445 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2026-02-22 18:35:50,445 - data_preprocessing - DEBUG - Target column encoded
+2026-02-22 18:35:50,447 - data_preprocessing - DEBUG - Duplicates removed
+2026-02-22 18:35:52,139 - data_preprocessing - DEBUG - Text column transformed
+2026-02-22 18:35:52,149 - data_preprocessing - DEBUG - Processed data saved to ./data/interim
