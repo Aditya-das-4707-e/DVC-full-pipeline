@@ -5,17 +5,20 @@ Building Pipeline:
 4. Now git add, commit, push
 
 Setting up dcv pipeline (without params)
+
 5. Create dvc.yaml file and add stages to it.
 6. dvc init then do "dvc repro" to test the pipeline automation. (check dvc dag)
 7. Now git add, commit, push
 
 Setting up dcv pipeline (with params)
+
 8. add params.yaml file
 9. Add the params setup (mentioned below)
 10. Do "dvc repro" again to test the pipeline along with the params
 11. Now git add, commit, push
 
 Expermients with DVC:
+
 12. pip install dvclive
 13. Add the dvclive code block (mentioned below)
 14. Do "dvc exp run", it will create a new dvc.yaml(if already not there) and dvclive directory (each run will be considered as an experiment by DVC)
@@ -72,6 +75,7 @@ params = load_params('params.yaml')['model_building']
 -------------------------------------------------------------------------------
 
 dvclive code block:
+
 1. import dvclive and yaml:
 from dvclive import Live
 import yaml
